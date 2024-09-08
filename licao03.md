@@ -46,7 +46,7 @@ gcc -Wall cuse.c `pkg-config fuse3 --cflags --libs` -o cuse_licao_03
 ```
  Em seguida crie um dispositivo de caractere utilizando o parâmetro de debug:
 ```
-sudo ./cuse_edited -f --name=meu_dispositivo -d
+sudo ./cuse_licao_03 -f --name=meu_dispositivo -d
 ```
 
 Agora para interagir com o dispositivo, precisamos enviar o comando que desejamos executar. Nesse exemplo ao enviar "1" o dispositivo deve ligar(ON), quando enviamos "2"(OFF) deve desligar e por último se mandarmos algum valor diferente dos mencionados o dispositivo não faz nada(NOP).
