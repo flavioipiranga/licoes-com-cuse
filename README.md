@@ -8,7 +8,7 @@ Extraia o arquivo baixado:
 
 `tar xvf fuse-3.16.2.tar.gz`
 
-Mude para o diretório contendo os exemplos:
+Siga as intruções de build no link https://github.com/libfuse/libfuse. Após terminar esses passos mude para o diretório contendo os exemplos:
 
 `cd fuse-3.16.2/example`
 
